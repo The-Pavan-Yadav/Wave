@@ -15,7 +15,7 @@ object FirebaseManager {
         try {
             if (FirebaseApp.getApps(context).isEmpty()) {
                 val options = FirebaseOptions.Builder()
-                    .setApiKey("AIzaSyAPxAGeJGDBAu3Bv_FMuu1k_5UXXvcLGnY")
+                    .setApiKey("your api key")
                     .setApplicationId("1:73702664175:android:68b90b53ea592901e6381a")
                     .setProjectId("wave-6a491")
                     .setStorageBucket("wave-6a491.firebasestorage.app")
